@@ -1,0 +1,101 @@
+{% extends "shop/Basic.html" %}
+{% load static %}
+
+{% block title %}
+EYE GUARD
+{% endblock %}
+
+{% block content %}
+
+<!-- Start Bradcaump area -->
+
+<div class="bradcaump_area bg_image--4">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="bradcaump_inner text-center">
+                            <h2 class="bradcaump-title">Account</h2>
+                            <nav class="bradcaump-content">
+                                <a class="breadcrumb_item" href="index.html">Home</a>
+                                <span class="brd-separetor">/</span>
+                                <span class="breadcrumb_item active">Login-Register</span>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+<!-- End Bradcaump area -->
+
+<!-- Start My Account Page -->
+    <div class="my-account-area section-ptb-xl">
+            <div class="container">
+                <div class="row">
+                    <!-- Login Form -->
+                    <div class="col-lg-6">
+                        <div class="login-form-wrapper">
+                            <form action="#" class="sn-form sn-form-boxed">
+                                <div class="sn-form-inner">
+                                    <div class="single-input">
+                                        <label for="login-form-email">Username or email address *</label>
+                                        <input type="text" name="login-form-email" id="login-form-email">
+                                    </div>
+                                    <div class="single-input">
+                                        <label for="login-form-password">Password *</label>
+                                        <input type="password" name="login-form-password" id="login-form-password">
+                                    </div>
+                                    <div class="single-input">
+                                        <button type="submit" class="mr-3">
+                                            <span>Login</span>
+                                        </button>
+                                        <div class="checkbox-input">
+                                            <input type="checkbox" name="login-form-remember" id="login-form-remember">
+                                            <label for="login-form-remember">Remember me</label>
+                                        </div>
+                                    </div>
+                                    <div class="single-input">
+                                        <a href="#">Lost your password?</a>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <!--// Login Form -->
+
+                    <!-- Register Form -->
+                    <div class="col-lg-6 md-mt--30 sm-mt--30">
+                        <div class="login-form-wrapper">
+                            <form action="#" class="sn-form sn-form-boxed">
+                                <div class="sn-form-inner">
+                                    <div class="single-input">
+                                        <label for="register-form-name">Username</label>
+                                        <input type="text" name="register-form-name" id="register-form-name">
+                                    </div>
+                                    <div class="single-input">
+                                        <label for="register-form-email">Email address</label>
+                                        <input type="text" name="register-form-email" id="register-form-email">
+                                    </div>
+                                    <div class="single-input">
+                                        <label for="register-form-password">Password</label>
+                                        <input type="password" name="register-form-password" id="register-form-password">
+                                    </div>
+                                    <div class="single-input">
+                                        <button type="submit">
+                                            <span>Register</span>
+                                        </button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <!--// Register Form -->
+                </div>
+            </div>
+        </div>
+
+<!-- End My Account Page -->
+
+
+{% endblock %}
