@@ -13,6 +13,7 @@ urlpatterns = [
     path('productframe2/',views.productframe2,name="ShopProductFrame2"),
     path('productframe3/',views.productframe3,name="ShopProductFrame3"),
     path('productframe4/',views.productframe4,name="ShopProductFrame4"),
+    path('productframe5/',views.productframe5,name="ShopProductFrame5"),
     path('cart/',views.cart,name="ShopCart"),
     path('checkout/',views.checkout,name="ShopCheckout"),
     path('shoplogin/',views.shoplogin,name="ShopLogin"),

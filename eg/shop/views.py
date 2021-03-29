@@ -68,6 +68,8 @@ def productframe3(request):
 def productframe4(request):
     return render(request, 'shop/productframe4.html')
 
+def productframe5(request):
+    return render(request, 'shop/productframe5.html')
 
 def shoplogin(request):
     if request.method == "POST":
