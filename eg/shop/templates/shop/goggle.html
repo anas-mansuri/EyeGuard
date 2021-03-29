@@ -26,89 +26,6 @@ EYE GUARD
             </div>
         </div>
 <!-- Ends Bradcaump area -->
-
-<!-- Start Shop Area -->
-
-<div class="shop_area section-ptb-xl bg--white">
-            <div class="container">
-                <div class="row">
-
-                    <div class="col-lg-3 col-12 order-2 order-lg-1 sm-mt--30 md-mt--30">
-                        <div class="shop_sidebar">
-                            <!-- Start Single Wedget -->
-                            <div class="sidebar_widget search mb--60">
-                                <h2 class="sidebar_title">Search</h2>
-                                <div class="sidebar_search">
-                                    <form action="#">
-                                        <input type="text" placeholder="Search for:">
-                                        <button type="submit"><i class="ti-search"></i></button>
-                                    </form>
-                                </div>
-                            </div>
-                            <!-- End Single Wedget -->
-
-                            <!-- Start Single Wedget -->
-                            <div class="sidebar_widget widget_price_filter mb--60">
-								<h2 class="sidebar_title">Filter</h2>
-
-
-                                <div class="sidebar_filter">
-									<div class="nstSlider" data-range_min="0" data-range_max="100" data-cur_min="10" data-cur_max="80">
-										<div class="bar nst-animating" style="left: 25px; width: 194px;"></div>
-										<div class="leftGrip nst-animating" tabindex="0" style="left: 25px;"></div>
-										<div class="rightGrip nst-animating" tabindex="0" style="left: 214px;"></div>
-									</div>
-									<div class="leftLabel">10</div>
-									<div class="rightLabel">83</div>
-
-								</div>
-
-
-
-
-                            </div>
-                            <!-- End Single Wedget -->
-
-
-                            <!-- Start Single Wedget -->
-                            <div class="sidebar_widget widget_banner mb--60">
-                                <div class="sidebar_banner">
-                                    <a href="#"><img src="shop/img/banner/sidebar-banner.png" alt="sidebar banner"></a>
-                                </div>
-                            </div>
-                            <!-- End Single Wedget -->
-
-                            <!-- Start Single Wedget -->
-                            <div class="sidebar_widget widget_tag">
-                                <h2 class="sidebar_title">Tags</h2>
-                                <ul class="sidebar_tag">
-                                    <li><a href="#">Anthologies</a></li>
-                                    <li><a href="#">Art</a></li>
-                                    <li><a href="#">Sports</a></li>
-                                    <li><a href="#">Anthologies</a></li>
-                                    <li><a href="#">Watch</a></li>
-                                </ul>
-                            </div>
-                            <!-- End Single Wedget -->
-
-
-
-
-                        </div>
-					</div>
-
-                    <div class="col-lg-9 col-12 order-1 order-lg-2">
-						<div class="shop_product_area">
-							<div class="shop-bar-area">
-								<div class="shop-filter-tab">
-									<div class="view_mode justify-content-center nav" role="tablist">
-										<a class="active show" href="#tab1" data-toggle="tab"> <i class="ti-layout-grid4-alt"></i></a>
-										<a class="" href="#tab2" data-toggle="tab"><i class="ti-list"></i></a>
-									</div>
-								</div>
-
-							</div>
-
 							<div class="tab_content">
 
 								<div class="row single_grid_product tab-pane fade active show" id="tab1" role="tabpanel">
@@ -117,22 +34,22 @@ EYE GUARD
 										<div class="product">
 											<div class="thumb">
 												<a href="single-product.html">
-													<img src="img/product/product-1.jpg" alt="product img">
+													<img src="{% static 'shop/img/googles/goggles 24.jpeg'%}"  alt="product img">
 												</a>
 												<div class="product_action">
 													<h4><a href="single-product.html">Rinosin Glasses</a></h4>
 													<ul class="cart_action">
-														<li><a href="cart.html"><img src="img/icons/add_to_cart.png" alt="icons"></a></li>
-														<li><a href="#"><img src="img/icons/compare_icon.png" alt="icons"></a></li>
-														<li><a href="wishlist.html"><img src="img/icons/wishlist_icon.png" alt="icons"></a></li>
-														<li><a title="Quick View" class="quickview" href="#"><img src="img/icons/quick_view.png" alt="icons"></a></li>
+														<li><a href="cart.html"><img src="{% static 'shop/img/icons/add_to_cart.png' %}" alt="icons"></a></li>
+														<li><a href="#"><img src="{% static 'shop/img/icons/compare_icon.png'%}" alt="icons"></a></li>
+														<li><a href="wishlist.html"><img src="{% static 'shop/img/icons/wishlist_icon.png'%}" alt="icons"></a></li>
+														<li><a title="Quick View" class="quickview" href="#"><img src="{% static 'shop/img/icons/quick_view.png'%}" alt="icons"></a></li>
 													</ul>
 												</div>
 												<div class="content">
 													<h4><a href="single-product.html">Rinosin Glasses</a></h4>
-													<ul class="price">
-														<li>$35</li>
-														<li class="old-price">$35</li>
+													<ul class="price" >
+														<li>₹ 2100</li>
+														<li class="old-price">₹ 2300 </li>
 													</ul>
 												</div>
 											</div>
@@ -144,22 +61,22 @@ EYE GUARD
 										<div class="product">
 											<div class="thumb">
 												<a href="single-product.html">
-													<img src="img/product/product-2.jpg" alt="product img">
+													<img src="{% static 'shop/img/googles/google 22.jpg'%}" alt="product img">
 												</a>
 												<div class="product_action">
 													<h4><a href="single-product.html">Bayamo Glasses</a></h4>
 													<ul class="cart_action">
-														<li><a href="cart.html"><img src="img/icons/add_to_cart.png" alt="icons"></a></li>
-														<li><a href="#"><img src="img/icons/compare_icon.png" alt="icons"></a></li>
-														<li><a href="wishlist.html"><img src="img/icons/wishlist_icon.png" alt="icons"></a></li>
-														<li><a title="Quick View" class="quickview" href="#"><img src="img/icons/quick_view.png" alt="icons"></a></li>
+														<li><a href="cart.html"><img src="{% static 'shop/img/icons/add_to_cart.png' %}" alt="icons"></a></li>
+														<li><a href="#"><img src="{% static 'shop/img/icons/compare_icon.png' %}" alt="icons"></a></li>
+														<li><a href="wishlist.html"><img src="{% static 'shop/img/icons/wishlist_icon.png' %}" alt="icons"></a></li>
+														<li><a title="Quick View" class="quickview" href="#"><img src="{% static 'shop/img/icons/quick_view.png' %}" alt="icons"></a></li>
 													</ul>
 												</div>
 												<div class="content">
 													<h4><a href="single-product.html">Bayamo Glasses</a></h4>
 													<ul class="price">
-														<li>$35</li>
-														<li class="old-price">$35</li>
+														<li>₹ 1200</li>
+														<li class="old-price">₹1700</li>
 													</ul>
 												</div>
 											</div>
@@ -171,22 +88,22 @@ EYE GUARD
 										<div class="product">
 											<div class="thumb">
 												<a href="single-product.html">
-													<img src="img/product/product-3.jpg" alt="product img">
+													<img src="{% static 'shop/img/googles/goggles 29.jpg' %}" width="100px" height="470px" alt="product img">
 												</a>
 												<div class="product_action">
 													<h4><a href="single-product.html">Easin Glasses</a></h4>
 													<ul class="cart_action">
-														<li><a href="cart.html"><img src="img/icons/add_to_cart.png" alt="icons"></a></li>
-														<li><a href="#"><img src="img/icons/compare_icon.png" alt="icons"></a></li>
-														<li><a href="wishlist.html"><img src="img/icons/wishlist_icon.png" alt="icons"></a></li>
-														<li><a title="Quick View" class="quickview" href="#"><img src="img/icons/quick_view.png" alt="icons"></a></li>
+														<li><a href="cart.html"><img src="{% static 'shop/img/icons/add_to_cart.png' %}" alt="icons"></a></li>
+														<li><a href="#"><img src="{% static 'shop/img/icons/compare_icon.png' %}" alt="icons"></a></li>
+														<li><a href="wishlist.html"><img src="{% static 'shop/img/icons/wishlist_icon.png' %}" alt="icons"></a></li>
+														<li><a title="Quick View" class="quickview" href="#"><img src="{% static 'shop/img/icons/quick_view.png' %}" alt="icons"></a></li>
 													</ul>
 												</div>
 												<div class="content">
 													<h4><a href="single-product.html">Easin Glasses</a></h4>
 													<ul class="price">
-														<li>$35</li>
-														<li class="old-price">$35</li>
+														<li>₹ 999</li>
+														<li class="old-price">₹ 1399</li>
 													</ul>
 												</div>
 											</div>
@@ -198,22 +115,22 @@ EYE GUARD
 										<div class="product">
 											<div class="thumb">
 												<a href="single-product.html">
-													<img src="img/product/product-4.jpg" alt="product img">
+													<img src="{% static 'shop/img/googles/goggles 32.jpg' %}" alt="product img" width="100px" height="430px">
 												</a>
 												<div class="product_action">
 													<h4><a href="single-product.html">Macro Melodi</a></h4>
 													<ul class="cart_action">
-														<li><a href="cart.html"><img src="img/icons/add_to_cart.png" alt="icons"></a></li>
-														<li><a href="#"><img src="img/icons/compare_icon.png" alt="icons"></a></li>
-														<li><a href="wishlist.html"><img src="img/icons/wishlist_icon.png" alt="icons"></a></li>
-														<li><a title="Quick View" class="quickview" href="#"><img src="img/icons/quick_view.png" alt="icons"></a></li>
+														<li><a href="cart.html"><img src="{% static 'shop/img/icons/add_to_cart.png' %}" alt="icons"></a></li>
+														<li><a href="#"><img src="{% static 'shop/img/icons/compare_icon.png' %}" alt="icons"></a></li>
+														<li><a href="wishlist.html"><img src="{% static 'shop/img/icons/wishlist_icon.png' %}" alt="icons"></a></li>
+														<li><a title="Quick View" class="quickview" href="#"><img src="{% static 'shop/img/icons/quick_view.png' %}" alt="icons"></a></li>
 													</ul>
 												</div>
 												<div class="content">
 													<h4><a href="single-product.html">Macro Melodi</a></h4>
 													<ul class="price">
-														<li>$35</li>
-														<li class="old-price">$35</li>
+														<li>₹ 1299</li>
+														<li class="old-price">₹ 1599</li>
 													</ul>
 												</div>
 											</div>
@@ -225,22 +142,22 @@ EYE GUARD
 										<div class="product">
 											<div class="thumb">
 												<a href="single-product.html">
-													<img src="img/product/product-5.jpg" alt="product img">
+													<img src="{% static 'shop/img/product/product-5.jpg' %}" alt="product img">
 												</a>
 												<div class="product_action">
 													<h4><a href="single-product.html">Movilark Raison</a></h4>
 													<ul class="cart_action">
-														<li><a href="cart.html"><img src="img/icons/add_to_cart.png" alt="icons"></a></li>
-														<li><a href="#"><img src="img/icons/compare_icon.png" alt="icons"></a></li>
-														<li><a href="wishlist.html"><img src="img/icons/wishlist_icon.png" alt="icons"></a></li>
-														<li><a title="Quick View" class="quickview" href="#"><img src="img/icons/quick_view.png" alt="icons"></a></li>
+														<li><a href="cart.html"><img src="{% static 'shop/img/icons/add_to_cart.png' %}" alt="icons"></a></li>
+														<li><a href="#"><img src="{% static 'shop/img/icons/compare_icon.png' %}" alt="icons"></a></li>
+														<li><a href="wishlist.html"><img src="{% static 'shop/img/icons/wishlist_icon.png' %}" alt="icons"></a></li>
+														<li><a title="Quick View" class="quickview" href="#"><img src="{% static 'shop/img/icons/quick_view.png' %}" alt="icons"></a></li>
 													</ul>
 												</div>
 												<div class="content">
 													<h4><a href="single-product.html">Movilark Raison</a></h4>
 													<ul class="price">
-														<li>$35</li>
-														<li class="old-price">$45</li>
+														<li>₹ 999</li>
+														<li class="old-price">₹ 1299</li>
 													</ul>
 												</div>
 											</div>
@@ -252,76 +169,22 @@ EYE GUARD
 										<div class="product">
 											<div class="thumb">
 												<a href="single-product.html">
-													<img src="img/product/product-6.jpg" alt="product img">
+													<img src="{% static 'shop/img/product/product-6.jpg' %}" alt="product img">
 												</a>
 												<div class="product_action">
 													<h4><a href="single-product.html">Oakley Glasses</a></h4>
 													<ul class="cart_action">
-														<li><a href="cart.html"><img src="img/icons/add_to_cart.png" alt="icons"></a></li>
-														<li><a href="#"><img src="img/icons/compare_icon.png" alt="icons"></a></li>
-														<li><a href="wishlist.html"><img src="img/icons/wishlist_icon.png" alt="icons"></a></li>
-														<li><a title="Quick View" class="quickview" href="#"><img src="img/icons/quick_view.png" alt="icons"></a></li>
-													</ul>
-												</div>
-												<div class="content">
-													<h4><a href="single-product.html">Oakley Glasses</a></h4>
-													<ul class="price">
-														<li>$35</li>
-														<li class="old-price">$35</li>
-													</ul>
-												</div>
-											</div>
-										</div>
-									</div>
-									<!-- End Single Product -->
-									<!-- Start Single Product -->
-									<div class="col-lg-6 col-xl-4 col-sm-6 col-12">
-										<div class="product">
-											<div class="thumb">
-												<a href="single-product.html">
-													<img src="img/product/product-7.jpg" alt="product img">
-												</a>
-												<div class="product_action">
-													<h4><a href="single-product.html">Rinosin Glasses</a></h4>
-													<ul class="cart_action">
-														<li><a href="cart.html"><img src="img/icons/add_to_cart.png" alt="icons"></a></li>
-														<li><a href="#"><img src="img/icons/compare_icon.png" alt="icons"></a></li>
-														<li><a href="wishlist.html"><img src="img/icons/wishlist_icon.png" alt="icons"></a></li>
-														<li><a title="Quick View" class="quickview" href="#"><img src="img/icons/quick_view.png" alt="icons"></a></li>
-													</ul>
-												</div>
-												<div class="content">
-													<h4><a href="single-product.html">Rinosin Glasses</a></h4>
-													<ul class="price">
-														<li>$35</li>
-														<li class="old-price">$35</li>
-													</ul>
-												</div>
-											</div>
-										</div>
-									</div>
-									<!-- End Single Product -->
-									<!-- Start Single Product -->
-									<div class="col-lg-6 col-xl-4 col-sm-6 col-12">
-										<div class="product">
-											<div class="thumb">
-												<a href="single-product.html">
-													<img src="img/product/product-8.jpg" alt="product img">
-												</a>
-												<div class="product_action">
-													<h4><a href="single-product.html">Oakley Glasses</a></h4>
-													<ul class="cart_action">
-														<li><a href="cart.html"><img src="img/icons/add_to_cart.png" alt="icons"></a></li>
-														<li><a href="#"><img src="img/icons/compare_icon.png" alt="icons"></a></li>
-														<li><a href="wishlist.html"><img src="img/icons/wishlist_icon.png" alt="icons"></a></li>
-														<li><a title="Quick View" class="quickview" href="#"><img src="img/icons/quick_view.png" alt="icons"></a></li>
+														<li><a href="cart.html"><img src="{% static 'shop/img/icons/add_to_cart.png' %}" alt="icons"></a></li>
+														<li><a href="#"><img src="{% static 'shop/img/icons/compare_icon.png' %}" alt="icons"></a></li>
+														<li><a href="wishlist.html"><img src="{% static 'shop/img/icons/wishlist_icon.png' %}" alt="icons"></a></li>
+														<li><a title="Quick View" class="quickview" href="#"><img src="{% static 'shop/img/icons/quick_view.png' %}" alt="icons"></a></li>
 													</ul>
 												</div>
 												<div class="content">
 													<h4><a href="single-product.html">Oakley Glasses</a></h4>
 													<ul class="price">
-														<li>$35</li>
-														<li class="old-price">$35</li>
+														<li>₹ 999</li>
+														<li class="old-price">₹ 1399</li>
 													</ul>
 												</div>
 											</div>
@@ -333,22 +196,22 @@ EYE GUARD
 										<div class="product">
 											<div class="thumb">
 												<a href="single-product.html">
-													<img src="img/product/product-9.jpg" alt="product img">
+													<img src="{% static 'shop/img/product/product-7.jpg' %}" alt="product img">
 												</a>
 												<div class="product_action">
-													<h4><a href="single-product.html">Ray Bune</a></h4>
+													<h4><a href="single-product.html">Rinosin Glasses</a></h4>
 													<ul class="cart_action">
-														<li><a href="cart.html"><img src="img/icons/add_to_cart.png" alt="icons"></a></li>
-														<li><a href="#"><img src="img/icons/compare_icon.png" alt="icons"></a></li>
-														<li><a href="wishlist.html"><img src="img/icons/wishlist_icon.png" alt="icons"></a></li>
-														<li><a title="Quick View" class="quickview" href="#"><img src="img/icons/quick_view.png" alt="icons"></a></li>
+														<li><a href="cart.html"><img src="{% static 'shop/img/icons/add_to_cart.png' %}" alt="icons"></a></li>
+														<li><a href="#"><img src="{% static 'shop/img/icons/compare_icon.png' %}" alt="icons"></a></li>
+														<li><a href="wishlist.html"><img src="{% static 'shop/img/icons/wishlist_icon.png' %}" alt="icons"></a></li>
+														<li><a title="Quick View" class="quickview" href="#"><img src="{% static 'shop/img/icons/quick_view.png' %}" alt="icons"></a></li>
 													</ul>
 												</div>
 												<div class="content">
-													<h4><a href="single-product.html">Ray Bune</a></h4>
+													<h4><a href="single-product.html">Rinosin Glasses</a></h4>
 													<ul class="price">
-														<li>$35</li>
-														<li class="old-price">$35</li>
+														<li>₹ 799</li>
+														<li class="old-price">₹ 999</li>
 													</ul>
 												</div>
 											</div>
@@ -360,22 +223,22 @@ EYE GUARD
 										<div class="product">
 											<div class="thumb">
 												<a href="single-product.html">
-													<img src="img/product/product-10.jpg" alt="product img">
+													<img src="{% static 'shop/img/product/product-8.jpg '%}" alt="product img">
 												</a>
 												<div class="product_action">
-													<h4><a href="single-product.html">Rinosin Glasses</a></h4>
+													<h4><a href="single-product.html">Oakley Glasses</a></h4>
 													<ul class="cart_action">
-														<li><a href="cart.html"><img src="img/icons/add_to_cart.png" alt="icons"></a></li>
-														<li><a href="#"><img src="img/icons/compare_icon.png" alt="icons"></a></li>
-														<li><a href="wishlist.html"><img src="img/icons/wishlist_icon.png" alt="icons"></a></li>
-														<li><a title="Quick View" class="quickview" href="#"><img src="img/icons/quick_view.png" alt="icons"></a></li>
+														<li><a href="cart.html"><img src="{% static 'shop/img/icons/add_to_cart.png' %}" alt="icons"></a></li>
+														<li><a href="#"><img src="{% static 'shop/img/icons/compare_icon.png' %}" alt="icons"></a></li>
+														<li><a href="wishlist.html"><img src="{% static 'shop/img/icons/wishlist_icon.png' %}" alt="icons"></a></li>
+														<li><a title="Quick View" class="quickview" href="#"><img src="{% static 'shop/img/icons/quick_view.png' %}" alt="icons"></a></li>
 													</ul>
 												</div>
 												<div class="content">
-													<h4><a href="single-product.html">Rinosin Glasses</a></h4>
+													<h4><a href="single-product.html">Oakley Glasses</a></h4>
 													<ul class="price">
-														<li>$35</li>
-														<li class="old-price">$35</li>
+														<li>₹ 499</li>
+														<li class="old-price">₹ 699</li>
 													</ul>
 												</div>
 											</div>
@@ -387,22 +250,22 @@ EYE GUARD
 										<div class="product">
 											<div class="thumb">
 												<a href="single-product.html">
-													<img src="img/product/product-11.jpg" alt="product img">
+													<img src="{% static 'shop/img/product/product-9.jpg' %}" alt="product img">
 												</a>
 												<div class="product_action">
 													<h4><a href="single-product.html">Ray Bune</a></h4>
 													<ul class="cart_action">
-														<li><a href="cart.html"><img src="img/icons/add_to_cart.png" alt="icons"></a></li>
-														<li><a href="#"><img src="img/icons/compare_icon.png" alt="icons"></a></li>
-														<li><a href="wishlist.html"><img src="img/icons/wishlist_icon.png" alt="icons"></a></li>
-														<li><a title="Quick View" class="quickview" href="#"><img src="img/icons/quick_view.png" alt="icons"></a></li>
+														<li><a href="cart.html"><img src="{% static 'img/icons/add_to_cart.png' %}" alt="icons"></a></li>
+														<li><a href="#"><img src="{% static 'shop/img/icons/compare_icon.png' %}" alt="icons"></a></li>
+														<li><a href="wishlist.html"><img src="{% static 'shop/img/icons/wishlist_icon.png' %}" alt="icons"></a></li>
+														<li><a title="Quick View" class="quickview" href="#"><img src="{% static 'shop/img/icons/quick_view.png' %}" alt="icons"></a></li>
 													</ul>
 												</div>
 												<div class="content">
 													<h4><a href="single-product.html">Ray Bune</a></h4>
 													<ul class="price">
-														<li>$35</li>
-														<li class="old-price">$35</li>
+														<li>₹ 799</li>
+														<li class="old-price">₹ 999</li>
 													</ul>
 												</div>
 											</div>
@@ -414,22 +277,76 @@ EYE GUARD
 										<div class="product">
 											<div class="thumb">
 												<a href="single-product.html">
-													<img src="img/product/product-12.jpg" alt="product img">
+													<img src="{%static 'shop/img/product/product-10.jpg' %}" alt="product img">
 												</a>
 												<div class="product_action">
 													<h4><a href="single-product.html">Rinosin Glasses</a></h4>
 													<ul class="cart_action">
-														<li><a href="cart.html"><img src="img/icons/add_to_cart.png" alt="icons"></a></li>
-														<li><a href="#"><img src="img/icons/compare_icon.png" alt="icons"></a></li>
-														<li><a href="wishlist.html"><img src="img/icons/wishlist_icon.png" alt="icons"></a></li>
-														<li><a title="Quick View" class="quickview" href="#"><img src="img/icons/quick_view.png" alt="icons"></a></li>
+														<li><a href="cart.html"><img src="{%static '' %}shop/img/icons/add_to_cart.png" alt="icons"></a></li>
+														<li><a href="#"><img src="{%static 'shop/img/icons/compare_icon.png' %}" alt="icons"></a></li>
+														<li><a href="wishlist.html"><img src="{%static 'shop/img/icons/wishlist_icon.png' %}" alt="icons"></a></li>
+														<li><a title="Quick View" class="quickview" href="#"><img src="{%static 'shop/img/icons/quick_view.png' %}" alt="icons"></a></li>
 													</ul>
 												</div>
 												<div class="content">
 													<h4><a href="single-product.html">Rinosin Glasses</a></h4>
 													<ul class="price">
-														<li>$35</li>
-														<li class="old-price">$35</li>
+														<li>₹ 599</li>
+														<li class="old-price">₹ 899</li>
+													</ul>
+												</div>
+											</div>
+										</div>
+									</div>
+									<!-- End Single Product -->
+									<!-- Start Single Product -->
+									<div class="col-lg-6 col-xl-4 col-sm-6 col-12">
+										<div class="product">
+											<div class="thumb">
+												<a href="single-product.html">
+													<img src="{% static 'shop/img/product/product-11.jpg' %}" alt="product img">
+												</a>
+												<div class="product_action">
+													<h4><a href="single-product.html">Ray Bune</a></h4>
+													<ul class="cart_action">
+														<li><a href="cart.html"><img src="{% static 'shop/img/icons/add_to_cart.png' %}" alt="icons"></a></li>
+														<li><a href="#"><img src="{% static 'shop/img/icons/compare_icon.png' %}" alt="icons"></a></li>
+														<li><a href="wishlist.html"><img src="{% static 'shop/img/icons/wishlist_icon.png' %}" alt="icons"></a></li>
+														<li><a title="Quick View" class="quickview" href="#"><img src="{% static 'shop/img/icons/quick_view.png' %}" alt="icons"></a></li>
+													</ul>
+												</div>
+												<div class="content">
+													<h4><a href="single-product.html">Ray Bune</a></h4>
+													<ul class="price">
+														<li>₹ 999</li>
+														<li class="old-price">₹ 1299</li>
+													</ul>
+												</div>
+											</div>
+										</div>
+									</div>
+									<!-- End Single Product -->
+									<!-- Start Single Product -->
+									<div class="col-lg-6 col-xl-4 col-sm-6 col-12">
+										<div class="product">
+											<div class="thumb">
+												<a href="single-product.html">
+													<img src="{% static 'shop/img/product/product-12.jpg' %}" alt="product img">
+												</a>
+												<div class="product_action">
+													<h4><a href="single-product.html">Rinosin Glasses</a></h4>
+													<ul class="cart_action">
+														<li><a href="cart.html"><img src="{% static 'shop/img/icons/add_to_cart.png' %}" alt="icons"></a></li>
+														<li><a href="#"><img src="{% static 'shop/img/icons/compare_icon.png' %}" alt="icons"></a></li>
+														<li><a href="wishlist.html"><img src="{% static 'shop/img/icons/wishlist_icon.png' %}" alt="icons"></a></li>
+														<li><a title="Quick View" class="quickview" href="#"><img src="{% static 'shop/img/icons/quick_view.png' %}" alt="icons"></a></li>
+													</ul>
+												</div>
+												<div class="content">
+													<h4><a href="single-product.html">Rinosin Glasses</a></h4>
+													<ul class="price">
+														<li>₹599</li>
+														<li class="old-price">₹ 899</li>
 													</ul>
 												</div>
 											</div>
@@ -444,20 +361,20 @@ EYE GUARD
 										<div class="product_list">
 											<div class="product_list__thumb">
 												<a href="single-product.html">
-													<img src="img/product/list1.png" alt="product img">
+													<img src="{%static 'shop/img/product/list1.png' %}" alt="product img">
 												</a>
 											</div>
 											<div class="product_list__content">
 												<h4><a href="single-product.html">Rinosin Glasses</a></h4>
 												<ul class="price">
-													<li>$35</li>
-													<li class="old-price">$35</li>
+													<li>₹ 899</li>
+													<li class="old-price">₹ 1299</li>
 												</ul>
 												<p>But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born</p>
 												<ul class="cart_action">
-													<li><a href="cart.html"><img src="img/icons/add_to_cart.png" alt="icons"></a></li>
-													<li><a href="#"><img src="img/icons/compare_icon.png" alt="icons"></a></li>
-													<li><a title="Quick View" class="quickview" href="#"><img src="img/icons/quick_view.png" alt="icons"></a></li>
+													<li><a href="cart.html"><img src="{% static 'shop/img/icons/add_to_cart.png' %}" alt="icons"></a></li>
+													<li><a href="#"><img src="{% static '' %}img/icons/compare_icon.png" alt="icons"></a></li>
+													<li><a title="Quick View" class="quickview" href="#"><img src="{% static '' %}img/icons/quick_view.png" alt="icons"></a></li>
 												</ul>
 											</div>
 										</div>
@@ -468,20 +385,20 @@ EYE GUARD
 										<div class="product_list">
 											<div class="product_list__thumb">
 												<a href="single-product.html">
-													<img src="img/product/list2.png" alt="product img">
+													<img src="{% static '' %}img/product/list2.png" alt="product img">
 												</a>
 											</div>
 											<div class="product_list__content">
 												<h4><a href="single-product.html">Easin Glasses</a></h4>
 												<ul class="price">
-													<li>$35</li>
-													<li class="old-price">$35</li>
+													<li>₹ 999</li>
+													<li class="old-price">₹ 1299</li>
 												</ul>
 												<p>But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born</p>
 												<ul class="cart_action">
-													<li><a href="cart.html"><img src="img/icons/add_to_cart.png" alt="icons"></a></li>
-													<li><a href="#"><img src="img/icons/compare_icon.png" alt="icons"></a></li>
-													<li><a title="Quick View" class="quickview" href="#"><img src="img/icons/quick_view.png" alt="icons"></a></li>
+													<li><a href="cart.html"><img src="{% static '' %}img/icons/add_to_cart.png" alt="icons"></a></li>
+													<li><a href="#"><img src="{% static '' %}img/icons/compare_icon.png" alt="icons"></a></li>
+													<li><a title="Quick View" class="quickview" href="#"><img src="{% static '' %}img/icons/quick_view.png" alt="icons"></a></li>
 												</ul>
 											</div>
 										</div>
@@ -492,20 +409,20 @@ EYE GUARD
 										<div class="product_list">
 											<div class="product_list__thumb">
 												<a href="single-product.html">
-													<img src="img/product/list3.png" alt="product img">
+													<img src="{% static 'shop/img/product/list3.png' %}" alt="product img">
 												</a>
 											</div>
 											<div class="product_list__content">
 												<h4><a href="single-product.html">Macro Melodi</a></h4>
 												<ul class="price">
-													<li>$35</li>
-													<li class="old-price">$35</li>
+													<li>₹ 999</li>
+													<li class="old-price">₹ 1399</li>
 												</ul>
 												<p>But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born</p>
 												<ul class="cart_action">
-													<li><a href="cart.html"><img src="img/icons/add_to_cart.png" alt="icons"></a></li>
-													<li><a href="#"><img src="img/icons/compare_icon.png" alt="icons"></a></li>
-													<li><a title="Quick View" class="quickview" href="#"><img src="img/icons/quick_view.png" alt="icons"></a></li>
+													<li><a href="cart.html"><img src="{% static 'shop/img/icons/add_to_cart.png' %}" alt="icons"></a></li>
+													<li><a href="#"><img src="{% static 'shop/img/icons/compare_icon.png' %}" alt="icons"></a></li>
+													<li><a title="Quick View" class="quickview" href="#"><img src="{% static 'shop/img/icons/quick_view.png' %}" alt="icons"></a></li>
 												</ul>
 											</div>
 										</div>
@@ -516,20 +433,20 @@ EYE GUARD
 										<div class="product_list">
 											<div class="product_list__thumb">
 												<a href="single-product.html">
-													<img src="img/product/list4.png" alt="product img">
+													<img src="{% static '' %}img/product/list4.png" alt="product img">
 												</a>
 											</div>
 											<div class="product_list__content">
 												<h4><a href="single-product.html">Movilark Raison</a></h4>
 												<ul class="price">
-													<li>$35</li>
-													<li class="old-price">$35</li>
+													<li>₹ 499</li>
+													<li class="old-price">₹ 799</li>
 												</ul>
 												<p>But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born</p>
 												<ul class="cart_action">
-													<li><a href="cart.html"><img src="img/icons/add_to_cart.png" alt="icons"></a></li>
-													<li><a href="#"><img src="img/icons/compare_icon.png" alt="icons"></a></li>
-													<li><a title="Quick View" class="quickview" href="#"><img src="img/icons/quick_view.png" alt="icons"></a></li>
+													<li><a href="cart.html"><img src="{% static '' %}img/icons/add_to_cart.png" alt="icons"></a></li>
+													<li><a href="#"><img src="{% static '' %}img/icons/compare_icon.png" alt="icons"></a></li>
+													<li><a title="Quick View" class="quickview" href="#"><img src="{% static '' %}img/icons/quick_view.png" alt="icons"></a></li>
 												</ul>
 											</div>
 										</div>
@@ -540,20 +457,20 @@ EYE GUARD
 										<div class="product_list">
 											<div class="product_list__thumb">
 												<a href="single-product.html">
-													<img src="img/product/list5.png" alt="product img">
+													<img src="{% static '' %}img/product/list5.png" alt="product img">
 												</a>
 											</div>
 											<div class="product_list__content">
 												<h4><a href="single-product.html">Movilark Raison</a></h4>
 												<ul class="price">
-													<li>$35</li>
-													<li class="old-price">$35</li>
+													<li>₹ 1299</li>
+													<li class="old-price">₹ 1699</li>
 												</ul>
 												<p>But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born</p>
 												<ul class="cart_action">
-													<li><a href="cart.html"><img src="img/icons/add_to_cart.png" alt="icons"></a></li>
-													<li><a href="#"><img src="img/icons/compare_icon.png" alt="icons"></a></li>
-													<li><a title="Quick View" class="quickview" href="#"><img src="img/icons/quick_view.png" alt="icons"></a></li>
+													<li><a href="cart.html"><img src="{% static 'shop/img/icons/add_to_cart.png' %}" alt="icons"></a></li>
+													<li><a href="#"><img src="{% static 'shop/img/icons/compare_icon.png' %}" alt="icons"></a></li>
+													<li><a title="Quick View" class="quickview" href="#"><img src="{% static 'shop/img/icons/quick_view.png' %}" alt="icons"></a></li>
 												</ul>
 											</div>
 										</div>
@@ -564,20 +481,20 @@ EYE GUARD
 										<div class="product_list">
 											<div class="product_list__thumb">
 												<a href="single-product.html">
-													<img src="img/product/list6.png" alt="product img">
+													<img src="{% static 'shop/img/product/list6.png' %}" alt="product img">
 												</a>
 											</div>
 											<div class="product_list__content">
 												<h4><a href="single-product.html">Oakley Glasses</a></h4>
 												<ul class="price">
-													<li>$35</li>
-													<li class="old-price">$35</li>
+													<li>₹ 599</li>
+													<li class="old-price">₹ 899</li>
 												</ul>
 												<p>But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born</p>
 												<ul class="cart_action">
-													<li><a href="cart.html"><img src="img/icons/add_to_cart.png" alt="icons"></a></li>
-													<li><a href="#"><img src="img/icons/compare_icon.png" alt="icons"></a></li>
-													<li><a title="Quick View" class="quickview" href="#"><img src="img/icons/quick_view.png" alt="icons"></a></li>
+													<li><a href="cart.html"><img src="{% static 'shop/img/icons/add_to_cart.png' %}" alt="icons"></a></li>
+													<li><a href="#"><img src="{% static 'shop/img/icons/compare_icon.png' %}" alt="icons"></a></li>
+													<li><a title="Quick View" class="quickview" href="#"><img src="{% static 'shop/img/icons/quick_view.png' %}" alt="icons"></a></li>
 												</ul>
 											</div>
 										</div>
@@ -588,20 +505,20 @@ EYE GUARD
 										<div class="product_list">
 											<div class="product_list__thumb">
 												<a href="single-product.html">
-													<img src="img/product/list7.png" alt="product img">
+													<img src="{% static 'shop/img/product/list7.png' %}" alt="product img">
 												</a>
 											</div>
 											<div class="product_list__content">
 												<h4><a href="single-product.html">Rinosin Glasses</a></h4>
 												<ul class="price">
-													<li>$35</li>
-													<li class="old-price">$35</li>
+													<li>₹ 999</li>
+													<li class="old-price">₹ 999</li>
 												</ul>
 												<p>But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born</p>
 												<ul class="cart_action">
-													<li><a href="cart.html"><img src="img/icons/add_to_cart.png" alt="icons"></a></li>
-													<li><a href="#"><img src="img/icons/compare_icon.png" alt="icons"></a></li>
-													<li><a title="Quick View" class="quickview" href="#"><img src="img/icons/quick_view.png" alt="icons"></a></li>
+													<li><a href="cart.html"><img src="{% static 'shop/img/icons/add_to_cart.png' %}" alt="icons"></a></li>
+													<li><a href="#"><img src="{% static 'shop/img/icons/compare_icon.png' %}" alt="icons"></a></li>
+													<li><a title="Quick View" class="quickview" href="#"><img src="{% static 'shop/img/icons/quick_view.png' %}" alt="icons"></a></li>
 												</ul>
 											</div>
 										</div>
@@ -612,20 +529,20 @@ EYE GUARD
 										<div class="product_list">
 											<div class="product_list__thumb">
 												<a href="single-product.html">
-													<img src="img/product/list8.png" alt="product img">
+													<img src="{% static 'shop/img/product/list8.png' %}" alt="product img">
 												</a>
 											</div>
 											<div class="product_list__content">
 												<h4><a href="single-product.html">Ray Bune</a></h4>
 												<ul class="price">
-													<li>$35</li>
-													<li class="old-price">$35</li>
+													<li>₹ 1899</li>
+													<li class="old-price">₹ 2100</li>
 												</ul>
 												<p>But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born</p>
 												<ul class="cart_action">
-													<li><a href="cart.html"><img src="img/icons/add_to_cart.png" alt="icons"></a></li>
-													<li><a href="#"><img src="img/icons/compare_icon.png" alt="icons"></a></li>
-													<li><a title="Quick View" class="quickview" href="#"><img src="img/icons/quick_view.png" alt="icons"></a></li>
+													<li><a href="cart.html"><img src="{% static 'shop/img/icons/add_to_cart.png' %}" alt="icons"></a></li>
+													<li><a href="#"><img src="{% static 'shop/img/icons/compare_icon.png' %}" alt="icons"></a></li>
+													<li><a title="Quick View" class="quickview" href="#"><img src="{% static 'shop/img/icons/quick_view.png' %}" alt="icons"></a></li>
 												</ul>
 											</div>
 										</div>
@@ -636,20 +553,20 @@ EYE GUARD
 										<div class="product_list">
 											<div class="product_list__thumb">
 												<a href="single-product.html">
-													<img src="img/product/list9.png" alt="product img">
+													<img src="{% static 'shop/img/product/list9.png' %}" alt="product img">
 												</a>
 											</div>
 											<div class="product_list__content">
 												<h4><a href="single-product.html">Ribsonchasmish</a></h4>
 												<ul class="price">
-													<li>$35</li>
-													<li class="old-price">$35</li>
+													<li>₹ 1599</li>
+													<li class="old-price">₹ 1999</li>
 												</ul>
 												<p>But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born</p>
 												<ul class="cart_action">
-													<li><a href="cart.html"><img src="img/icons/add_to_cart.png" alt="icons"></a></li>
-													<li><a href="#"><img src="img/icons/compare_icon.png" alt="icons"></a></li>
-													<li><a title="Quick View" class="quickview" href="#"><img src="img/icons/quick_view.png" alt="icons"></a></li>
+													<li><a href="cart.html"><img src="{% static 'shop/img/icons/add_to_cart.png' %}" alt="icons"></a></li>
+													<li><a href="#"><img src="{% static 'shop/img/icons/compare_icon.png' %}" alt="icons"></a></li>
+													<li><a title="Quick View" class="quickview" href="#"><img src="{% static 'shop/img/icons/quick_view.png' %}" alt="icons"></a></li>
 												</ul>
 											</div>
 										</div>
@@ -660,20 +577,20 @@ EYE GUARD
 										<div class="product_list">
 											<div class="product_list__thumb">
 												<a href="single-product.html">
-													<img src="img/product/list1.png" alt="product img">
+													<img src="{% static 'shop/img/product/list1.png' %}" alt="product img">
 												</a>
 											</div>
 											<div class="product_list__content">
 												<h4><a href="single-product.html">Rinosin Glasses</a></h4>
 												<ul class="price">
-													<li>$35</li>
-													<li class="old-price">$35</li>
+													<li>₹ 1299</li>
+													<li class="old-price">₹ 1599</li>
 												</ul>
 												<p>But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born</p>
 												<ul class="cart_action">
-													<li><a href="cart.html"><img src="img/icons/add_to_cart.png" alt="icons"></a></li>
-													<li><a href="#"><img src="img/icons/compare_icon.png" alt="icons"></a></li>
-													<li><a title="Quick View" class="quickview" href="#"><img src="img/icons/quick_view.png" alt="icons"></a></li>
+													<li><a href="cart.html"><img src="{% static 'shop/img/icons/add_to_cart.png' %}" alt="icons"></a></li>
+													<li><a href="#"><img src="{% static 'shop/img/icons/compare_icon.png' %}" alt="icons"></a></li>
+													<li><a title="Quick View" class="quickview" href="#"><img src="{% static 'shop/img/icons/quick_view.png' %}" alt="icons"></a></li>
 												</ul>
 											</div>
 										</div>
