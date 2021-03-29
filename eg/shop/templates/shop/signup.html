@@ -7,19 +7,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="{% static 'shop/css/log.css' %}">
-    </head>
+    <link rel="stylesheet" href="{% static 'shop/css/signup.css' %}">
+
+  </head>
   <body>
 
-
-<!--Login Page-->
+<!--Signup Page-->
 <div style="background-color:powderblue;">
-    <div class="wrapper fadeInDown">
+    <div class="wrapper fadeInDown" >
   <div id="formContent">
     <!-- Tabs Titles -->
 
-    <h2 class="active"><a href=""> Sign In</a> </h2>
-    <h2 class="inactive underlineHover"><a href="{% url 'ShopSignup' %}">Sign Up </a></h2>
+    <h2 class="inactive underlineHover"><a href="{% url 'ShopLogin' %}"> Sign In</a> </h2>
+    <h2 class="active"><a href="">Sign Up </a></h2>
 
 
 
@@ -27,35 +27,37 @@
     <form action="" method="post">
     {% csrf_token %}
       <input type="text" id="login" class="fadeIn first username" name="uname" placeholder="login">
-      <input type="password" id="password" class="fadeIn second password" name="password" placeholder="password">
-      <h4>{{msg}}</h4>
-      <input type="submit"  class="fadeIn third button" value="Log In">
+      <h3>{{msg1}}</h3>
+      <input type="email" id="email" class="fadeIn second email" name="email" placeholder="email">
+      <h3>{{msg2}}</h3>
+      <input type="password" id="password" class="fadeIn third password" name="password" placeholder="password">
+      <input type="password" id="cpassword" class="fadeIn fourth confirmpassword" name="cpassword" placeholder="Password Again">
+      <input type="submit" class="fadeIn fifth button" value="Sign up">
     </form>
 
-<script>
+   <script>
     document.querySelector('.button').onclick=function(){
       var password=document.querySelector('.password').value,
-      uname=document.querySelector('.username').value;
-
-      if(password==""  || uname==""){
+      confirmpassword=document.querySelector('.confirmpassword').value,
+      uname=document.querySelector('.username').value,
+      email=document.querySelector('.email').value;
+      if(password=="" || confirmpassword=="" || uname=="" || email==""){
         alert("Field cannot be empty")
         return false
+      } else if(password!=confirmpassword){
+        alert("Password didn't Match try Again")
+        return false
       }
-      else{
+      else if(password==confirmpassword){
         return true
       }
-
     }
    </script>
 
-    <!-- Remind Passowrd -->
-    <div id="formFooter">
-      <a class="underlineHover" href="#">Forgot Password?</a>
-    </div>
-
   </div>
 </div>
-<!--Login-Page-->
+</div>
+  <!--Signup-Page-->
 
 
 
@@ -69,7 +71,6 @@
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js" integrity="sha384-KsvD1yqQ1/1+IA7gi3P0tyJcT3vR+NdBTt13hSJ2lnve8agRGXTTyNaBYmCR/Nwi" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.min.js" integrity="sha384-nsg8ua9HAw1y0W1btsyWgBklPnCUAFLuTMS2G72MMONqmOymq585AcH49TLBQObG" crossorigin="anonymous"></script>
     -->
-
 
 
   </body>
