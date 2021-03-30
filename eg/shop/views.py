@@ -33,6 +33,9 @@ def account(request):
     return render(request, 'shop/account.html')
 
 
+def thankyou(request):
+    return render(request, 'shop/thankyou.html')
+
 def eyeglass(request):
     return render(request, 'shop/eyeglass.html')
 
@@ -70,6 +73,39 @@ def productframe4(request):
 
 def productframe5(request):
     return render(request, 'shop/productframe5.html')
+
+
+def Contactlenseframe1(request):
+    return render(request, 'shop/Contactlenseframe1.html')
+
+
+def Contactlenseframe2(request):
+    return render(request, 'shop/Contactlenseframe2.html')
+
+
+def Contactlenseframe3(request):
+    return render(request, 'shop/Contactlenseframe3.html')
+
+
+def Contactlenseframe4(request):
+    return render(request, 'shop/Contactlenseframe4.html')
+
+
+def Contactlenseframe5(request):
+    return render(request, 'shop/Contactlenseframe5.html')
+
+def Contactlenseframe6(request):
+    return render(request, 'shop/Contactlenseframe6.html')
+
+def Contactlenseframe7(request):
+    return render(request, 'shop/Contactlenseframe7.html')
+
+def Contactlenseframe8(request):
+    return render(request, 'shop/Contactlenseframe8.html')
+
+def Contactlenseframe9(request):
+    return render(request, 'shop/Contactlenseframe9.html')
+
 
 def shoplogin(request):
     if request.method == "POST":

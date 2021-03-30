@@ -23,4 +23,15 @@ urlpatterns = [
     path('prescription/', views.prescription, name="ShopPrescription"),
     path('wishlist/', views.wishlist, name="ShopWishlist"),
     path('', views.signup, name="ShopSignup"),
+    path('thankyou/', views.thankyou, name="ShopThankyou"),
+    path('Contactlenseframe1/', views.Contactlenseframe1, name="Contactlenseframe1"),
+    path('Contactlenseframe2/', views.Contactlenseframe2, name="Contactlenseframe2"),
+    path('Contactlenseframe3/', views.Contactlenseframe3, name="Contactlenseframe3"),
+    path('Contactlenseframe4/', views.Contactlenseframe4, name="Contactlenseframe4"),
+    path('Contactlenseframe5/', views.Contactlenseframe5, name="Contactlenseframe5"),
+    path('Contactlenseframe6/', views.Contactlenseframe6, name="Contactlenseframe6"),
+    path('Contactlenseframe7/', views.Contactlenseframe7, name="Contactlenseframe7"),
+    path('Contactlenseframe8/', views.Contactlenseframe8, name="Contactlenseframe8"),
+    path('Contactlenseframe9/', views.Contactlenseframe9, name="Contactlenseframe9"),
+
 ]

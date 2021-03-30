@@ -14,11 +14,11 @@ EYE GUARD
                 <div class="row">
                     <div class="col-lg-12">
                         <div class="bradcaump_inner text-center">
-                            <h2 class="bradcaump-title">Select Product</h2>
+                            <h2 class="bradcaump-title">Single Product</h2>
                             <nav class="bradcaump-content">
-                                <a class="breadcrumb_item" href="{% url 'ShopHome' %}">Home</a>
+                                <a class="breadcrumb_item" href="index.html">Home</a>
                                 <span class="brd-separetor">/</span>
-                                <span class="breadcrumb_item active">Select Product</span>
+                                <span class="breadcrumb_item active">Single Product</span>
                             </nav>
                         </div>
                     </div>
@@ -37,7 +37,7 @@ EYE GUARD
                         <div class="product__details__container">
                             <div class="tab_container big_img_container">
                                 <div class="big_img tab-pane fade show active" id="img1" role="tabpanel">
-                                    <img src="{% static 'shop/img/product/product-1.jpg' %}" alt="gomes restaurant">
+                                    <img src="{% static 'shop/img/product/lense6.jpg' %}" alt="gomes restaurant">
                                 </div>
 
                                 <div class="big_img tab-pane fade" id="img2" role="tabpanel">
@@ -53,33 +53,17 @@ EYE GUARD
                                     <img src="{% static 'shop/img/product/big-img-2.png' %}" alt="gomes restaurant">
                                 </div>
                             </div>
-                            <div class="sm_roduct_nav nav nav-tabs" role="tablist">
-                                <a class="active" id="img1-tab" data-toggle="tab" href="#img1" role="tab" aria-controls="img1" aria-selected="true">
-                                    <img src="{% static 'shop/img/product/product-1.jpg' %}" alt="gomes restaurant">
-                                </a>
-                                <a id="nav-img2-tab" data-toggle="tab" href="#img2" role="tab" aria-controls="img2" aria-selected="false">
-                                    <img src="{% static 'shop/img/product//product-1.jpg' %}" alt="gomes restaurant">
-                                </a>
-                                <a id="nav-img3-tab" data-toggle="tab" href="#img3" role="tab" aria-controls="img3" aria-selected="false">
-                                    <img src="{% static 'shop/img/product//product-1.jpg' %}" alt="gomes restaurant">
-                                </a>
-                                <a id="nav-img4-tab" data-toggle="tab" href="#img4" role="tab" aria-controls="img4" aria-selected="false">
-                                    <img src="{% static 'shop/img/product//product-1.jpg' %}" alt="gomes restaurant">
-                                </a>
-                                <a id="nav-img5-tab" data-toggle="tab" href="#img5" role="tab" aria-controls="img5" aria-selected="false">
-                                    <img src="{% static 'shop/img/product//product-1.jpg' %}" alt="gomes restaurant">
-                                </a>
-                            </div>
+
 
                         </div>
                     </div>
                     <div class="col-lg-6 col-12">
                         <div class="single_product_inner">
-                            <h4>ALL-WELL</h4>
+                            <h4>Colour Lence</h4>
 
                             <div class="price">
-                                <span class="new">₹799</span>
-                                <span class="old">₹999</span>
+                                <span class="new">₹ 999</span>
+                                <span class="old">₹ 1199</span>
                             </div>
 
                             <ul class="rating">
@@ -104,22 +88,18 @@ EYE GUARD
                                 <p>Products available in store.
                                     <br>Also in store:
                                     <span class="heading-color">1154</span> product result.</p>
-                                <p>Fully Sheet material frame with fully flexible</p>
+                                <p>Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
                             </div>
 
                             <div class="product_cart_action">
                                 <div class="add_to_cart">
                                     <ul class="cart_list">
                                         <li class="shopping_basket">
-                                            <a href="{% url 'ShopLens' %}">
-                                                </i> Select Lens</a>
-                                        </li>
-                                        <li class="shopping_basket">
-                                         <a href="{% url 'ShopCart' %}">
-                                              <i class="fa fa-shopping-basket"></i> Add to Cart</a>
+                                            <a href="cart.html">
+                                                <i class="fa fa-shopping-basket"></i> add to cart</a>
                                         </li>
                                         <li>
-                                            <a href="{% url 'ShopWishlist' %}">
+                                            <a href="wishlist.html">
                                                 <i class="fa fa-heart-o"></i>
                                             </a>
                                         </li>
@@ -130,36 +110,7 @@ EYE GUARD
                                     <div class="pro-quantity"><div class="pro-qty"><span class="dec qtybtn">-</span><input type="text" value="2"><span class="inc qtybtn">+</span></div></div>
                                 </div>
                             </div>
-                            <div class="product_share">
-                                <span>Share:</span>
-                                <ul class="social_share">
-                                    <li>
-                                        <a class="facebook" href="https://www.facebook.com/">
-                                            <i class="fa fa-facebook"></i>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a class="twitter" href="https://ads.twitter.com/">
-                                            <i class="fa fa-twitter"></i>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a class="google-plus" href="https://www.google.com/">
-                                            <i class="fa fa-google-plus"></i>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a class="rss" href="https://en.wikipedia.org">
-                                            <i class="fa fa-rss"></i>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a class="instagram" href="https://www.instagram.com/">
-                                            <i class="fa fa-instagram"></i>
-                                        </a>
-                                    </li>
-                                </ul>
-                            </div>
+
                         </div>
                     </div>
                 </div>
@@ -231,9 +182,6 @@ EYE GUARD
                 </div>
             </div>
         </div>
-
-
-
 
 <!-- Ends Single Product -->
 

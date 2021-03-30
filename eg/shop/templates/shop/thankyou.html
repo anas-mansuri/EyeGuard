@@ -1,0 +1,35 @@
+{% extends "shop/Basic.html" %}
+{% load static %}
+
+{% block title %}
+EYE GUARD
+{% endblock %}
+
+{% block content %}
+<div align="center" >
+    <h1>THANK YOU </h1>
+</div>
+
+<div align="center" >
+    <h2>Your Book is on the way</h2>
+</div>
+
+
+<div align="center" >
+    <h2> Our team will contact you shortly..</h2>
+</div>
+
+<div align="center" >
+    <p> Having Trouble ? <button type="button" class="btn btn-outline-dark"> <a href="{% url 'ShopContact' %}">Contact Us</a></button> </p>
+</div>
+
+
+<div align="center" style="padding-bottom:50px" >
+    <button type="button" class="btn btn-secondary btn-lg">
+        <a href="{% url 'ShopHome' %}">    Continue to Homepage </a>
+    </button>
+</div>
+
+
+
+{% endblock %}
