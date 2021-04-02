@@ -16,7 +16,7 @@ EYE GUARD
                         <div class="bradcaump_inner text-center">
                             <h2 class="bradcaump-title">SELECT LENS FOR SPECTACLES </h2>
                             <nav class="bradcaump-content">
-                                <a class="breadcrumb_item" href="index.html">Home</a>
+                                <a class="breadcrumb_item" href="{% url 'ShopHome' %}">Home</a>
                                 <span class="brd-separetor">/</span>
                                 <span class="breadcrumb_item active">lens</span>
                             </nav>
@@ -30,12 +30,63 @@ EYE GUARD
 
 <!-- start prescription area-->
 
-<!-- Ends prescription area-->
+<div class="container">
+  <div class="row">
 
-<div align="center" style="padding-top:50px ; padding-bottom:50px" >
-    <button type="button" class="btn btn-secondary btn-lg">
-        <a href="{% url 'ShopPrescription' %}">   Add Prescription </a>
-    </button>
+      <div class="col-6">
+        <div  style="padding-top:30px">
+            <a href="{% url 'ShopPrescription' %}">
+                <img src="{% static 'shop/img/product/anti-glare.jpg' %}" alt="submit" height="333" width="600" >
+            </a>
+
+            <div class="price">
+                <center>   <span class="new"><B><h3>₹499</h3></B></span>
+                    <span> <h4> ANTI-GLARE GLASSES WITH GREEN COATING</h4></span>
+            </div>
+        </div>
+      </div>
+
+      <div class="col-6">
+        <div  style="padding-top:30px">
+            <a href="{% url 'ShopPrescription' %}">
+                <img src="{% static 'shop/img/product/bifocal.jpg' %}" alt="submit" >
+            </a>
+
+            <div class="price">
+                <center>   <span class="new"><B><h3>₹499</h3></B></span>
+                    <span> <h4> BI-FOCAL GLASSES WITH GREEN COATING</h4></span>
+            </div>
+        </div>
+      </div>
+
+        <div class="col-6">
+          <div  style="padding-top:30px">
+                <a href="{% url 'ShopPrescription' %}">
+                    <img src="{% static 'shop/img/product/prograssive.jpg' %}" alt="submit" height="" width="600">
+                </a>
+
+            <div class="price">
+                <center>   <span class="new"><B><h3>₹2999</h3></B></span>
+                    <span> <h4>PROGRESSIVE GLASSES WITH GREEN COATING</h4></span>
+            </div>
+            </div>
+        </div>
+
+        <div class="col-6">
+          <div  style="padding-top:30px">
+            <a href="{% url 'ShopPrescription' %}">
+                <img src="{% static 'shop/img/product/blueblock.jpg' %}" alt="submit" height="353">
+            </a>
+
+            <div class="price">
+                <center>   <span class="new"><B><h3>₹999</h3></B></span>
+                    <span> <h4> BLUE BLOCK GLASSES</h4></span>
+            </div>
+          </div>
+        </div>
+
+  </div>
 </div>
+<!-- Ends prescription area-->
 
 {% endblock %}

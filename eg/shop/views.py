@@ -4,7 +4,8 @@ from django.http import HttpResponse
 from django.http import HttpResponseRedirect
 from django.contrib.auth.hashers import make_password
 from .models import contacts
-
+from django.core.mail import send_mail
+from django.conf import settings
 
 # Create your views here.
 
@@ -13,13 +14,20 @@ def index(request):
 
 
 def contact(request):
-    if request.method=="POST":
+    if request.method == "POST":
         nm=request.POST.get('name')
         em=request.POST.get('email')
         phn=request.POST.get('phone')
         msg=request.POST.get('desc')
         c1=contacts(name=nm,email=em,phone=phn,message=msg)
         c1.save()
+        message = "Dear {fname}, \n\n We appreciate you contacting us. one of our Representative will get back in touch with you soon! \n\nThank-You Have a great day ! ".format(
+            fname=nm)
+        send_mail("Thank you for getting in touch !",
+                  message,
+                  settings.EMAIL_HOST_USER,
+                  [em],
+                  fail_silently=False)
         return render(request, 'shop/contact.html')
     else:
         return render(request, 'shop/contact.html')

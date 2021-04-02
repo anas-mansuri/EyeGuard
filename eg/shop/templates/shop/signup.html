@@ -26,12 +26,12 @@
     <!-- Login Form -->
     <form action="" method="post">
     {% csrf_token %}
-      <input type="text" id="login" class="fadeIn first username" name="uname" placeholder="login">
+      <input type="text" id="login" class="fadeIn first username" name="uname" placeholder="Username">
       <h3>{{msg1}}</h3>
       <input type="email" id="email" class="fadeIn second email" name="email" placeholder="email">
       <h3>{{msg2}}</h3>
       <input type="password" id="password" class="fadeIn third password" name="password" placeholder="password">
-      <input type="password" id="cpassword" class="fadeIn fourth confirmpassword" name="cpassword" placeholder="Password Again">
+      <input type="password" id="cpassword" class="fadeIn fourth confirmpassword" name="cpassword" placeholder="Conform Password">
       <input type="submit" class="fadeIn fifth button" value="Sign up">
     </form>
 
